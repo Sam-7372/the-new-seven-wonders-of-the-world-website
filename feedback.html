@@ -13,14 +13,14 @@
 <body> <!--header of page-->
     <nav class="navbar">
         <div class="navbar__container">
-            <a href="/" id="navbar__logo">The New Seven Wonders Of The World</a>
+            <a href="./index.html" id="navbar__logo">The New Seven Wonders Of The World</a>
             <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span> <span class="bar"></span>
                 <span class="bar"></span>
             </div>
             <ul class="navbar__menu">
                 <li class="navbar__item">
-                    <a href="/" class="navbar__links"> Home </a>
+                    <a href="./index.html" class="navbar__links"> Home </a>
                 </li>
                 <li class="navbar__btn">
                     <a href="feedback.html" class="button"> Feedback </a>
@@ -51,8 +51,11 @@
             <div class="input-box">
                 <input id="email" type="email" placeholder="Email address" required>
             </div>
+            <div class="input-box">
+                <input id="dov" type="date" class="date" placeholder="Date of visit" required>
+            </div>
             <div class="text-area">
-                <textarea id="message" cols="25" rows="5" placeholder="Enter message" required></textarea>
+                <textarea id="message" cols="25" rows="5" placeholder="Experiences/Special Memories" required></textarea>
             </div>
             <button type="submit" class="btn" onclick="feedback()">Submit</button>
         </form>
